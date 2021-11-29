@@ -1,0 +1,118 @@
+body{
+    font-family: 'Scheherazade New', serif;
+    margin: 0px 0px;
+}
+a {
+   color: inherit;
+
+   text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#welcome-section{
+    background-image: url(https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2346&q=80);
+    background-size: cover;
+    text-align: center;
+}
+
+
+#welcome-section h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 80px;
+}
+
+@media only screen and (min-width: 800px){
+    #navbar{
+        width: 100vw;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        background-color: #35e5ce;
+        align-items: center;
+        top:0px;
+    
+    
+    }
+}
+#navbar{
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e53935;
+    align-items: center;
+    top:0px;
+
+
+}
+#welcome-section{
+    margin-top: 104px;
+    display: absolute;
+    
+    height: 100VH;
+}
+ul{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.button{
+    background-color: #e53935;
+    margin: 5px;
+    border: 0px 0px;
+    box-shadow: none;
+    border-radius: 20px;
+    border-color: #e53935;
+    
+    color: white;
+    font-weight: 600;
+    padding: 7px;
+}
+
+
+#github_image{
+    margin-top: 5px;
+}
+
+#github_image img{
+    height:25px;
+    width:25px;
+}
+
+
+.restau-imgs{
+    width: 45%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.phone-img{
+    width: 250px;
+    
+}
+
+#contacts{
+    background-color: rgba(104, 24, 24, 0.274);
+    padding: 10px;
+}
+.w3-section{
+    padding: 7px;
+}
+
+
